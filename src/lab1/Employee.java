@@ -56,6 +56,7 @@ public class Employee {
     public void setSsn(String ssn) {
         if (ssn == null || ssn.length() == 0){
             System.out.println("No ssn entered!");
+            System.out.println("hello");
         }
         this.ssn = ssn;
     }
