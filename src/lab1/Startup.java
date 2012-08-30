@@ -11,15 +11,13 @@ package lab1;
 public class Startup {
     public static void main(String[] args) {
         Employee employee = new Employee();
-        employee.firstName = "Peter";
-        employee.lastName = "Piper";
-        employee.ssn = "333-1234";
-        
-        employee.meetDepartmentStaff();
-        employee.meetWithHrForBenefitAndSalryInfo();
-        employee.reviewDeptPolicies();
+        Actions action = new Actions();
+        employee.setFirstName("Peter");
+        employee.setLastName("Piper");
+        employee.setSsn("333-1234");
 
-        System.out.println("The employee's status is: " + employee.getStatus());
+
+        System.out.println("The employee's status is: " + action.getStatus());
     }
     
     
