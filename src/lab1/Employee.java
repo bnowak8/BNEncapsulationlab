@@ -34,7 +34,7 @@ public class Employee {
         this.firstName = firstName;
     }
 
-    private String getLastName() {
+    public String getLastName() {
         return lastName;
     }
 
@@ -45,7 +45,7 @@ public class Employee {
         this.lastName = lastName;
     }
 
-    private String getSsn() {
+    public String getSsn() {
         return ssn;
     }
 

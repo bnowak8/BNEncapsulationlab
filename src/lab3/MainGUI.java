@@ -346,7 +346,7 @@ public class MainGUI extends javax.swing.JFrame implements ActionListener {
             
     }//GEN-LAST:event_btnSortListActionPerformed
 
-    private void displayList() {
+    public void displayList() {
         //Will only display if the user enters data to display
         if (emptyRow > 0){
         NumberFormat nf = NumberFormat.getCurrencyInstance();
@@ -365,7 +365,7 @@ public class MainGUI extends javax.swing.JFrame implements ActionListener {
     }
 
     // Sort by partNumber
-    private void sortList() {
+    public void sortList() {
         // Only perform the sort if we have records
         if(emptyRow > 0) {
             // Bubble sort routine adapted from sample in text book...
@@ -395,7 +395,7 @@ public class MainGUI extends javax.swing.JFrame implements ActionListener {
         }
     }
 
-    private void clearEntryFields() {
+    public void clearEntryFields() {
         txtNewProdNo.setText("");
         txtNewProdDesc.setText("");
         txtNewProdPrice.setText("");

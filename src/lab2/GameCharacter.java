@@ -2,13 +2,10 @@
 package lab2;
 
 
-public class GameCharacter {
-    private String name, character;
-    private int health;
+public abstract class GameCharacter {
+    private String name;
+    private 
     
-    public GameCharacter(){
-        
-    }
 
     private String getName() {
         return name;
@@ -19,22 +16,24 @@ public class GameCharacter {
         this.name = name;
     }
 
-    private String getCharacter() {
+    private int getCharacter() {
         return character;
     }
 
-    public void setCharacter(String character) {
+    public void setCharacter(int character) {
         //Needs Verification
         this.character = character;
     }
 
-    private int getHealth() {
-        return health;
+    private boolean isGender() {
+        return gender;
     }
 
-    public void setHealth(int health) {
+    public void setGender(boolean gender) {
         //Needs Verification
-        this.health = health;
+        this.gender = gender;
     }
+
+
     
 }
