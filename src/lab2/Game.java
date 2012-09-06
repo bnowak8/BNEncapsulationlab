@@ -1,45 +1,39 @@
-
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package lab2;
 
+import java.util.Timer;
 
 public class Game {
-    private int move, lives, turn;
+    private int players;
+    private boolean validPlayers;
     
+    Timer timer = new Timer();
     
-    
+
     public Game(){
         
     }
 
-    private int getMove() {
-        return move;
+    public int getPlayers() {
+        return players;
     }
 
-    public void setMove(int move) {
-        //Needs Verification
-        this.move = move;
+    public void setPlayers(int players) {
+
+        this.players = players;
+       
     }
 
-    private int getLives() {
-        return lives;
+    public boolean isValidPlayers() {
+        return validPlayers;
     }
 
-    public void setLives(int lives) {
-        //Needs Verification
-        this.lives = lives;
+    public void setValidPlayers(boolean validPlayers) {
+        this.validPlayers = validPlayers;
     }
 
-    private int getTurn() {
-        return turn;
-    }
-
-    public void setTurn(int turn) {
-        //Needs Verification
-        this.turn = turn;
-    }
-    
-    
-    
-    
     
 }
