@@ -7,6 +7,7 @@ import java.awt.*;
 
 public class GameWorld extends JFrame{
     
+    
 //        private int positionX, positionY, position;
 //        private String level;
     public GameWorld(){

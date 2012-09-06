@@ -5,7 +5,7 @@ package lab2;
 public class GameCharacter {
     private String name;
     private int health, lives;
-    public boolean standing;
+    public boolean standing = true;
     
 
     public String getName() {
@@ -46,6 +46,7 @@ public class GameCharacter {
     }
     
     public void sit(){
+        System.out.println("sit");
         if (this.standing == true){
             this.standing = false;
         }else{
