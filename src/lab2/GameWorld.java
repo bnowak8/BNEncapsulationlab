@@ -1,14 +1,11 @@
 
 package lab2;
 
-import javax.swing.*;
-import java.awt.event.*;
-import java.awt.*;
 
-public class GameWorld extends JFrame{
+public class GameWorld {
     
     
-        private int positionX, positionY, position;
+        private int positionX, positionY;
         private String level;
     public GameWorld(){
         
@@ -41,5 +38,7 @@ public class GameWorld extends JFrame{
         //Needs Verification
         this.level = level;
     }
+    
+    
     
 }

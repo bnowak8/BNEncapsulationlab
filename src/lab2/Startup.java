@@ -10,7 +10,8 @@ public class Startup {
     public static void main(String[] args) {
     int n = 0;    
     GUI gui = new GUI();
-    Game game = new Game();    
+    Game game = new Game();
+    GameWorld world = new GameWorld();
     gui.main();
     while (game.isValidPlayers() == false){
     try{

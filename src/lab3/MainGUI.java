@@ -372,6 +372,7 @@ public class MainGUI extends javax.swing.JFrame implements ActionListener {
             // Make sure the operations are peformed on all 3 arrays!
             for(int passNum = 1; passNum < emptyRow; passNum++) {
                 for(int i = 1; i <= emptyRow-passNum; i++) {
+                    
                     String temp = "";
                     temp += partPrices[i-1];
                     partPrices[i-1] = partPrices[i];
